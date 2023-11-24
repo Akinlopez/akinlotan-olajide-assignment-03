@@ -24,7 +24,8 @@ function sumOfNumbersTo(destination) {
 
 let destination = 10;
 let result = sumOfNumbersTo(destination);
-console.log(result);  
+console.log(result);
+assignment.sumOfNumbersTo = sumOfNumbersTo
 
 
 
@@ -56,7 +57,7 @@ function countEvenNumbersWithin(destination) {
     };
 }
 
-// assignment.countEvenNumbersWithin = countEvenNumbersWithin;
+assignment.countEvenNumbersWithin = countEvenNumbersWithin;
 
 /**
  * Challenge - 3
@@ -86,7 +87,8 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 const celsiusTemps = [-28, 0, 22, 45, 53, 67 ];
 const fahrenheitTemps = celsiusToFahrenheit(celsiusTemps);
 
-console.log(fahrenheitTemps); 
+console.log(fahrenheitTemps);
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
